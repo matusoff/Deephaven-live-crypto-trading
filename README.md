@@ -4,24 +4,22 @@ os windows
 1. Make sure that the latest Java JDK installed in your system
 2. In command prompt or anakonda prompt type 
    java --version to check if the java jdk is installed. Make sure you have the latest version of java jdk installed.
-3. If not, install jave jdk on your system
-
-4. Copy the path location of java jdk in your system using jshell: 
-5. to get the path type 
+3. Copy the path location of java jdk in your system using jshell: 
+4. to get the path type 
    jshell> System.getProperty("java.home") and copy the path
-6. exit jshell: /exit
-7. create the virtual enviroment 
+5. exit jshell: /exit
+6. create the virtual enviroment 
    python3 -m venv crypto
-8. and activate it
+7. and activate it
    conda activate crypto
-9. set JAVA_HOME="your path"
-10. install deephaven
+8. set JAVA_HOME="your path"
+9. install deephaven
 
     python -m deephaven_example_app
     As soon the deephaven was installed you will seee the local server in the prompt
     http://localhost:10000/ide/
 
-11. on the server
+10. on the server
 #remove columns from live table
 my_table = matches_table.drop_columns("type")
 
