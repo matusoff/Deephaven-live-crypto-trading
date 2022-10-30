@@ -5,8 +5,7 @@ os windows
 2. In command prompt or anakonda prompt type 
    java --version to check if the java jdk is installed. Make sure you have the latest version of java jdk installed.
 3. Copy the path location of java jdk in your system using jshell: 
-4. to get the path type 
-   jshell> System.getProperty("java.home") and copy the path
+4. jshell> System.getProperty("java.home"). copy the path
 5. exit jshell: /exit
 6. create the virtual enviroment 
    python3 -m venv crypto
