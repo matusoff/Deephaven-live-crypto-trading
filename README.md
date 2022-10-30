@@ -3,7 +3,7 @@ os windows
 
 1. Make sure that the latest Java JDK installed in your system
 2. In command prompt or anakonda prompt type 
-   java --version to check if the java jdk is installed. Make sure you have the latest version of java jdk installed.
+   java --version to check if the java jdk was installed. Make sure you have the latest version of java jdk.
 3. Copy the path location of java jdk in your system using jshell: 
 4. jshell> System.getProperty("java.home"). copy the path
 5. exit jshell: /exit
