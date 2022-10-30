@@ -7,14 +7,14 @@ os windows
 3. Copy the path location of java jdk in your system using jshell: 
 4. jshell> System.getProperty("java.home"). copy the path
 5. exit jshell: /exit
-6. create the virtual enviroment 
+6. create the virtual enviroment: 
    python3 -m venv crypto
-7. and activate it
+7. and activate it:
    conda activate crypto
 8. set JAVA_HOME="your path"
-9. install deephaven
-
+9. install deephaven:
     python -m deephaven_example_app
+    
     As soon the deephaven was installed you will seee the local server in the prompt
     http://localhost:10000/ide/
 
