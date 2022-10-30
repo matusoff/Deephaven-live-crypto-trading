@@ -18,7 +18,8 @@ os windows
     As soon the deephaven was installed you will seee the local server in the prompt
     http://localhost:10000/ide/
 
-10. on the server
+10. Live traiding:
+
 #remove columns from live table
 my_table = matches_table.drop_columns("type")
 
